@@ -1,0 +1,30 @@
+{
+  "name": "onnx-react-cam",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://nknighta.github.io/onnx-react/",
+  "dependencies": {
+    "@types/lodash": "^4.17.14",
+    "gh-pages": "^6.3.0",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "onnxruntime-react-native": "^1.20.1",
+    "onnxruntime-web": "^1.20.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.1.8",
+    "@rsbuild/plugin-react": "^1.0.7",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}
